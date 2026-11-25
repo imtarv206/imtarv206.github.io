@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Redaction+50:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="container nav">
+        <a class="logo" href="index.html"> Portfolio </a>
+        <div class="nav-links">
+          <a href="index.html"> Home </a>
+          <a href="index.html#projects"> Projects </a>
+          <a href="about.html"> About </a>
+          <a href="cert.html"> Certs </a>
+          <a class="nav-contact active" href="contact.html"> Contact </a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="contact">
+        <div class="container contact-split">
+          <div class="contact-left">
+            <h1>Contact Me</h1>
+            <p>
+              Email, call, or fill in the form to talk about projects,
+              internships, or anything about web development.
+            </p>
+            <div class="link-to">
+              <a href="mailto:fanta6494@gmail.com" class="email">
+                <i class="fa-regular fa-envelope"></i>
+                fanta6494@gmail.com
+              </a>
+              <a
+                href="https://www.linkedin.com/in/your-profile"
+                class="linkedin"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+                Pariyanut Wingpad
+              </a>
+              <a
+                href="https://github.com/imtarv206"
+                class="github"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i>
+                imtarv206
+              </a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form
+              action="mailto:fanta6494@gmail.com"
+              method="post"
+              enctype="text/plain"
+              class="contact-card"
+            >
+              <h2>Get In Touch</h2>
+              <p>I usually reply within 1–2 days.</p>
+              <div class="field-name">
+                <input
+                  class="field"
+                  type="text"
+                  name="first-name"
+                  placeholder="First name"
+                  required
+                />
+                <input
+                  class="field"
+                  type="text"
+                  name="last-name"
+                  placeholder="Last name"
+                />
+              </div>
+
+              <label class="field field-email">
+                <i class="fa-regular fa-envelope"></i>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your email"
+                  required
+                />
+              </label>
+
+              <div class="field field-phone">
+                <select name="country-code">
+                  <option value="+66">+66</option>
+                  <option value="+1">+1</option>
+                  <option value="+44">+44</option>
+                  <option value="+81">+81</option>
+                </select>
+                <input type="tel" name="phone" placeholder="Phone number" />
+              </div>
+
+              <textarea
+                class="field"
+                name="message"
+                rows="5"
+                maxlength="500"
+                placeholder="How can I help?"
+                required
+              ></textarea>
+
+              <button class="contact-submit" type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="map">
+        <div class="container map-split">
+          <div class="map-left">
+            <iframe
+              src="https://maps.google.com/maps?q=King%20Mongkut%27s%20Institute%20of%20Technology%20Ladkrabang&z=15&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="map-right">
+            <span class="eyebrow">My Location</span>
+            <h2>Based in Bangkok</h2>
+            <h3>University</h3>
+            <p>
+              King Mongkut's Institute of Technology Ladkrabang (KMITL)<br />
+              School of Science, Computer Science<br />
+              1 Chalong Krung 1 Alley, Lat Krabang<br />
+              Bangkok 10520<br />
+              Thailand
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <a class="logo" href="index.html"> Portfolio </a>
+          <p>© 2026 tarv206. Built with HTML &amp; CSS.</p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html#projects"> Projects </a>
+          <a href="about.html"> About </a>
+          <a href="cert.html"> Certs </a>
+          <a href="contact.html"> Contact </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
